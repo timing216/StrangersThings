@@ -1,7 +1,7 @@
 export default function Home() {
     return (
-      <body>
-      <div className="home">
+      <body className="home">
+      <div >
         <img
           src="src/assets/shopping.svg"
           className="shoppinglogo"
