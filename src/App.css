@@ -1,118 +1,179 @@
+/*  Root  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+.body {
+min-height: 100vh;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.loginForm, .home {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: calc(100vh - 2px);
+max-width: 500px;
+border: none;
+color: royalblue;
+margin: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 2px);
+  max-width: 500px;
+  border: 1px solid royalblue;
+  color: #E1B941;
+  margin: auto;
+
+}
+
+.header {
+  width: calc(100% - 2px);
+  padding: 0 0.25em;
+  background-color: royalblue;
+  color: #E1B941;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
 #root {
-    height: 100%;
-    text-align: center;
-  }
-  
-  /*  Home  */
-  
-  .home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-    height: 70%;
-    width: 100%;
-  }
-  .home h1 {
-    font-size: 3rem;
-  }
-  
-  .home p {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-  .shoppinglogo {
-    height: 450px;
-    margin-right: 15px;
-    transform: rotate(10deg);
-  }
-  
-  /* Posts */
-  
-  .allPosts {
-    display: grid;
-    justify-content: center;
-  }
-  
-  .allPosts ul {
-    margin-top: 30px;
-    background-color: rgb(245, 246, 252);
-    padding: 10px;
-    border-radius: 10px;
-    padding: 50px;
-  }
-  
-  .allPosts h1 {
-    font-size: 3rem;
-    margin-top: 25px;
-  }
-  /* Register / Login */
-  
-  .registerForm,
-  .loginForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    height: 40%;
-  }
-  
-  .registerForm {
-    height: 50%;
-  }
-  .loginForm {
-    height: 40%;
-  }
-  
-  .registerForm h1,
-  .loginForm h1 {
-    margin-bottom: 10px;
-  }
-  
-  .registerForm input,
-  .loginForm input {
-    padding: 10px 10px;
-    width: 300px;
-    background-color: #faf0e4;
-  
-    border-radius: 5px;
-    border: none;
-  }
-  
-  .registerForm label,
-  .loginForm label {
-    margin-top: 3px;
-    padding: 10px;
-    text-align: start;
-  }
-  
-  .registerForm button,
-  .loginForm button {
-    margin-top: 20px;
-    padding: 15px 50px;
-    background-color: #ff8551;
-    border: none;
-    border-radius: 10px;
-    text-transform: uppercase;
-    font-weight: 700;
-    cursor: pointer;
-    font-size: 1.1rem;
-  }
-  
-  .registerForm button:hover,
-  .loginForm button:hover {
-    background-color: rgb(63, 91, 130);
-  }
-  
-  .registerForm p,
-  .loginForm p {
-    font-weight: 500;
-  }
-  
-  .login-register {
-    margin-top: 10px;
-  }
-  
+  height: 100%;
+  text-align: center;
+}
+
+/*  Home  */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.home h1 {
+  font-size: 2rem;
+}
+
+.home p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.shoppinglogo {
+  height: 150px;
+  margin-right: 15px;
+}
+
+/* Posts */
+
+.allPosts {
+  display: grid;
+  justify-content: center;
+}
+
+.allPosts ul {
+  margin-top: 30px;
+  background-color: rgb(245, 246, 252);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.allPosts h1 {
+  font-size: 3rem;
+  margin-top: 25px;
+}
+
+/* Register / Login */
+
+.registerForm,
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  height: 40%;
+}
+
+.registerForm {
+  height: 50%;
+}
+
+.loginForm {
+  height: 40%;
+}
+
+.registerForm h1,
+.loginForm h1 {
+  margin-bottom: 10px;
+}
+
+.registerForm input,
+.loginForm input {
+  padding: 10px 10px;
+  width: 300px;
+  background-color: #faf0e4;
+  border-radius: 5px;
+  border: none;
+}
+
+.registerForm label,
+.loginForm label {
+  margin-top: 3px;
+  padding: 10px;
+  text-align: start;
+}
+
+.registerForm button,
+.loginForm button {
+  margin-top: 20px;
+  padding: 15px 50px;
+  background-color:royalblue;
+  color:#E1B941;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.registerForm button:hover,
+.loginForm button:hover {
+  background-color: rgb(96, 131, 181);
+  color: #fff;
+}
+
+.registerForm p,
+.loginForm p {
+  font-weight: 500;
+}
+
+.login-register {
+  margin-top: 10px;
+} 

@@ -1,6 +1,6 @@
-import { registerUser } from "../API";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
+import { registerUser } from "../API";
 
 export default function Register() {
   const {
@@ -42,7 +42,7 @@ export default function Register() {
         {...register("username", {
           required: true,
           minLength: 8,
-          maxLength: 15,
+          maxLength: 21,
         })}
         name="username"
         type="text"
@@ -59,8 +59,8 @@ export default function Register() {
       <input
         {...register("password", {
           required: true,
-          minLength: 9,
-          maxLength: 15,
+          minLength: 8,
+          maxLength: 21,
         })}
         name="password"
         type="password"
