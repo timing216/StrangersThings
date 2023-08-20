@@ -13,7 +13,10 @@ function App() {
   return (
     <>
       <nav>
-        <h1>Strangers Things</h1>
+        <h1 style = {{ 
+          backgroundColor: 'royalblue',
+          color: '#fff'
+        }}>Strangers Things</h1>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -49,5 +52,4 @@ function App() {
 }
 export default App;
 
-// changing nav upon login
-// success/error messsages
+
