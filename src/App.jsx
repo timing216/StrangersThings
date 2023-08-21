@@ -13,10 +13,7 @@ function App() {
   return (
     <>
       <nav>
-        <h1 style = {{ 
-          backgroundColor: 'royalblue',
-          color: '#fff'
-        }}>Strangers Things</h1>
+        <h1>Strangers Things</h1>
         <ul>
           <li>
             <Link to="/">Home</Link>
