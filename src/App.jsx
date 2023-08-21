@@ -13,29 +13,26 @@ function App() {
   return (
     <>
       <nav>
-        <h1 style = {{ 
-          backgroundColor: 'royalblue',
-          color: '#fff'
-        }}>Strangers Things</h1>
+        <h1>Strangers Things</h1>
         <ul>
-          <li>
+          <li className = "liststyle">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className = "liststyle">
             <Link to="/posts">Posts</Link>
           </li>
-          <li>
+          <li className = "liststyle">
             <Link to="/account/login">Login</Link>
           </li>
 
           {registerUser && (
-            <li>
+            <li className = "liststyle">
               <Link to="/account/login">Profile</Link>
             </li>
           )}
 
           {registerUser && (
-            <li>
+            <li className = "liststyle">
               <Link to="/account/login">Logout</Link>
             </li>
           )}
