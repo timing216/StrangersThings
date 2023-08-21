@@ -1,4 +1,4 @@
-#Block30 Strengers Things
+#Block30 Strangers Things
 Objective: Build Craigs List Light Version with the following capabilities
 1) URL based routing and rendering
 2) URL/account/login will ask for 1. Username, 2. Password, 3. Log In, 4. Sign up if no account
