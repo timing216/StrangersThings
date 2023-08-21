@@ -20,42 +20,6 @@
     </g>
   </g>
   <metadata>
-    <rdf:RDF>
-      <cc:Work>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
-        <dc:publisher>
-          <cc:Agent rdf:about="http://openclipart.org/">
-            <dc:title>Openclipart</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:title>Hotel Icon Near Shopping</dc:title>
-        <dc:date>2010-04-23T19:42:15</dc:date>
-        <dc:description>Hotel Icons. Originally done for a request, this set has been re-mixed to simple black and white versions. </dc:description>
-        <dc:source>http://openclipart.org/detail/50425/hotel-icon-near-shopping-by-gerald_g</dc:source>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Gerald_G</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>cart</rdf:li>
-            <rdf:li>clip art</rdf:li>
-            <rdf:li>clipart</rdf:li>
-            <rdf:li>hotel</rdf:li>
-            <rdf:li>icon</rdf:li>
-            <rdf:li>services</rdf:li>
-            <rdf:li>shopping</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
-        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-      </cc:License>
-    </rdf:RDF>
+
   </metadata>
 </svg>
