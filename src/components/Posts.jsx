@@ -30,9 +30,9 @@ export default function UserPosts() {
             <ul className="posts">
               <h2>{post.title}</h2>
               <p>{post.description}</p>
-              <li>Price: {post.price}</li>
-              <li>Seller: {post.author.username}</li>
-              <li>Location: {post.location}</li>
+              <li className = "liststyle">Price: {post.price}</li>
+              <li className = "liststyle">Seller: {post.author.username}</li>
+              <li className = "liststyle">Location: {post.location}</li>
             </ul>
           </div>
         );

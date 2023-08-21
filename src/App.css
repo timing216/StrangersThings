@@ -1,7 +1,7 @@
 /*  Root  */
 
 * {
-  margin: 0;
+  margin-left: 10px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -46,6 +46,10 @@ margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.liststyle {
+  list-style-type: none
 }
 
 main {
