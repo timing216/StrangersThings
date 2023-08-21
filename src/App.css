@@ -4,6 +4,7 @@
   margin-left: 10px;
   padding: 0;
   box-sizing: border-box;
+  min-width: 500px;
 }
 
 html {
@@ -11,19 +12,22 @@ html {
 }
 
 .body {
-min-height: 100vh;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.loginForm, .home, .allPosts {
-display: flex;
-flex-direction: column;
-justify-content: center;
-height: calc(100vh - 2px);
-max-width: 500px;
-border: none;
-color: royalblue;
-margin: auto;
+.loginForm,
+.home,
+.allPosts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 2px);
+  max-width: 500px;
+  border: none;
+  color: royalblue;
+  margin: auto;
 }
 
 .App {
@@ -33,23 +37,22 @@ margin: auto;
   height: calc(100vh - 2px);
   max-width: 500px;
   border: 1px solid royalblue;
-  color: #E1B941;
+  color: #e1b941;
   margin: auto;
-
 }
 
 .header {
   width: calc(100% - 2px);
   padding: 0 0.25em;
   background-color: royalblue;
-  color: #E1B941;
+  color: #e1b941;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .liststyle {
-  list-style-type: none
+  list-style-type: none;
 }
 
 main {
@@ -89,8 +92,9 @@ main {
 }
 
 .shoppinglogo {
-  height: 150px;
-  margin-right: 15px;
+  height: 100px;
+  margin-left: 1000px;
+  margin-right: 1000px;
 }
 
 /* Posts */
@@ -157,8 +161,8 @@ main {
 .loginForm button {
   margin-top: 20px;
   padding: 15px 50px;
-  background-color:royalblue;
-  color:#E1B941;
+  background-color: royalblue;
+  color: #e1b941;
   border: none;
   border-radius: 10px;
   text-transform: uppercase;
@@ -180,4 +184,4 @@ main {
 
 .login-register {
   margin-top: 10px;
-} 
+}
