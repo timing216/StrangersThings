@@ -37,7 +37,7 @@ export default function Login() {
 
       <button>Login</button>
       <a className="login-register" href="/account/register">
-        Don't have an account? Register
+        {`Don't have an account? Register`}
       </a>
     </form>
   )
