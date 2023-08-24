@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { ToastContainer, toast } from "react-toastify";
 import { getPosts } from "../API";
 import Register from "./Register";
 import { registerUser } from "../API";
